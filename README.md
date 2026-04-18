@@ -2,12 +2,7 @@
 
 A simple command-line task manager built using Python.
 
-## Architecture Diagram
-
-
-
-
-
+---
 
 ## Features
 - Add, update, delete tasks
@@ -16,9 +11,13 @@ A simple command-line task manager built using Python.
 - JSON-based storage
 - No external libraries used
 
+---
+
 ## Architecture Diagram
 
 <img width="1024" height="1400" alt="image" src="https://github.com/user-attachments/assets/dbd3927f-ac33-478c-a0b0-265a4fe76285" />
+
+---
 
 ## Installation
 
@@ -28,10 +27,33 @@ cd task-tracker-cli
 ```
 
 ## Usage
+
+Add a task
 ```
-python task.py add "Finish assignment"
-python task.py list
-python task.py mark-done 1
+task add "Finish assignment"
+```
+List tasks
+```
+task list
+```
+Filter tasks
+```
+task list done
+task list todo
+task list in-progress
+```
+Update a task
+```
+task update 1 "Finish math assignment"
+```
+Delete a task
+```
+task delete 1
+```
+Mark status
+```
+task mark-done 1
+task mark-in-progress 1
 ```
 
 ## Commands
@@ -46,14 +68,14 @@ python task.py mark-done 1
 | list             | Show tasks          |
 
 ## Tech Stack
-Python
-JSON
-CLI
+-Python
+-JSON
+-CLI
 
 ## Future Improvements
-Priority levels
-Due dates
-Search functionality
+-Priority levels
+-Due dates
+-Search functionality
 
 
 ---
