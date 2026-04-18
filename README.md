@@ -9,6 +9,10 @@ A simple command-line task manager built using Python.
 - JSON-based storage
 - No external libraries used
 
+## Architecture Diagram
+
+<img width="1024" height="1400" alt="image" src="https://github.com/user-attachments/assets/dbd3927f-ac33-478c-a0b0-265a4fe76285" />
+
 ## Installation
 
 ```bash
