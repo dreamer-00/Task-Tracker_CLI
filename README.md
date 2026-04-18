@@ -2,6 +2,13 @@
 
 A simple command-line task manager built using Python.
 
+## Architecture Diagram
+
+
+
+
+
+
 ## Features
 - Add, update, delete tasks
 - Mark tasks as done or in-progress

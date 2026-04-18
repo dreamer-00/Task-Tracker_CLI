@@ -2,7 +2,7 @@ import sys
 import json
 import os
 from datetime import datetime
-FILE="taks.json"
+FILE="task.json"
 def load_tasks():
     try:
         if not os.path.exist(FILE):
